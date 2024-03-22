@@ -21,11 +21,20 @@ To reproduce the validation process, follow these steps:
 
 1. **Clone the Repository**: Clone this repository to your local machine using Git.
 
-```bash
 git clone <repository_url.git>
 
-
-## Project Task 3:
+## Project Task for Week 2:
+# Evaluating the biased
+- Have used the project from the mentioned models
+- Dowloaded the dataset
+- Cleaned the dataset
+- Converted the smiles to standard
+- Generated the InchyKeys
+- Made the predictions
+- Ploted the scttered plot
+# Made comparisons of the predictions
+- This is almost completed but under process
+## Project Task for Week 3:
 
 Select the paper and get the dataset that used in that paper and make prediction on that.
 
@@ -39,9 +48,8 @@ the code to download the dataset is below
 
 ```from tdc.single_pred import ADME
 data = ADME(name = 'PAMPA_NCATS')
-split = data.get_split()```
+split = data.get_split()
+```
 
 
-### Data preprocessing
 
-### Run the Predictions
