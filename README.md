@@ -40,7 +40,8 @@ Select the paper and get the dataset that used in that paper and make prediction
 
 ## The Paper is followed:
 
-<https://slas-discovery.org/action/showPdf?pii=S2472-5552%2822%2906765-X> that used the PAMPA dataset 
+<https://slas-discovery.org/action/showPdf?pii=S2472-5552%2822%2906765-X> that used the PAMPA dataset:
+**PAMPA, parallel artificial membrane permeability assay**: PAMPA is a laboratory test used in drug development to assess how easily a drug can pass through cell membranes. It helps researchers understand the ability of a drug to be absorbed into the bloodstream, which is important for determining its effectiveness.
 
 ## Download the dataset:
 
