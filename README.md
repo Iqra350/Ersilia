@@ -11,13 +11,13 @@ The goal of this project is to validate the accuracy and reproducibility of the 
 Kinetic aqueous solubility (μg/mL) was experimentally determined using the same SOP in over 200 NCATS drug discovery projects. A final dataset of 11780 non-redundant molecules and their associated solubility was used to train a SVM classifier. Approximately half of the dataset has poor solubility (< 10 μg/mL), and two-thirds of these low soluble molecules report values of < 1 μg/mL. A subset of the data used is available at PubChem (AID 1645848) <https://pubchem.ncbi.nlm.nih.gov/bioassay/1645848#section=Result-Definitions>.
 
 ## Characteristics
-Input: Compound
-Input Shape: Single
-Task: Classification
-Output: Probability
-Output Type: Float
-Output Shape: Single
-Interpretation: Probability of a compound having poor solublibity (< 10 µg/ml)
+- **Input**: Compound
+- **Input** Shape: Single
+- **Task**: Classification
+- **Output**: Probability
+- **Output Type**: Float
+- **Output Shape**: Single
+- **Interpretation**: Probability of a compound having poor solublibity (< 10 µg/ml)
 
 ## Repository Structure
 
