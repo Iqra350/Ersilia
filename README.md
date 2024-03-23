@@ -46,7 +46,6 @@ Kinetic aqueous solubility (μg/mL) was experimentally determined using the same
 ### Made comparisons of the predictions
 - This is almost completed but under process
 
-### Task 3 - Week 3
 Select the paper and get the dataset that used in that paper and make prediction on that.
 
 ### The Paper is followed:
@@ -58,10 +57,13 @@ Select the paper and get the dataset that used in that paper and make prediction
 
 the code to download the dataset is below
 
-```from tdc.single_pred import ADME
+```
+from tdc.single_pred import ADME
 data = ADME(name = 'PAMPA_NCATS')
 split = data.get_split()
+
 ```
 
+### Task 3 - Week 3
 
 
