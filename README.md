@@ -4,7 +4,20 @@ This repository contains the code and documentation for validating the "eos74bo"
 
 ## Project Overview
 
-The goal of this project is to validate the accuracy and reproducibility of the "eos74bo" model, which predicts ADME properties of small molecules. Task 1 specifically involves checking for model bias by running predictions for a list of 1000 diverse molecules and plotting the results in a scatter plot.
+The goal of this project is to validate the accuracy and reproducibility of the "eos74bo" model, which predicts ADME properties of small molecules. Task 1 specifically involves checking for model bias by running predictions for a list of 1000 diverse molecules and plotting the results in a scatter plot. and Task 2 reproducibity of results and Task 3 is extrnal data validation from Selected paper
+## About Selected model
+
+## Selected model
+Kinetic aqueous solubility (μg/mL) was experimentally determined using the same SOP in over 200 NCATS drug discovery projects. A final dataset of 11780 non-redundant molecules and their associated solubility was used to train a SVM classifier. Approximately half of the dataset has poor solubility (< 10 μg/mL), and two-thirds of these low soluble molecules report values of < 1 μg/mL. A subset of the data used is available at PubChem (AID 1645848) <https://pubchem.ncbi.nlm.nih.gov/bioassay/1645848#section=Result-Definitions>.
+
+## Characteristics
+Input: Compound
+Input Shape: Single
+Task: Classification
+Output: Probability
+Output Type: Float
+Output Shape: Single
+Interpretation: Probability of a compound having poor solublibity (< 10 µg/ml)
 
 ## Repository Structure
 
@@ -17,13 +30,8 @@ The goal of this project is to validate the accuracy and reproducibility of the 
 
 ## Getting Started
 
-To reproduce the validation process, follow these steps:
+### Task 1 - Week 2
 
-1. **Clone the Repository**: Clone this repository to your local machine using Git.
-
-git clone <repository_url.git>
-
-## Project Task for Week 2:
 ### Evaluating the biased
 - Have used the project from the mentioned models
 - Dowloaded the dataset
@@ -32,10 +40,13 @@ git clone <repository_url.git>
 - Generated the InchyKeys
 - Made the predictions
 - Ploted the scttered plot
+
+### Task 2 - Week 2
+
 ### Made comparisons of the predictions
 - This is almost completed but under process
-## Project Task for Week 3:
 
+### Task 3 - Week 3
 Select the paper and get the dataset that used in that paper and make prediction on that.
 
 ### The Paper is followed:
