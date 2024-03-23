@@ -1,6 +1,6 @@
 # README for Machine Learning Model Validation Project
 
-This repository contains the code and documentation for validating the "eos74bo" model from the Ersilia Model Hub, focusing on Task 1 of the internship project, which involves checking model bias.
+This repository contains the code and documentation for validating the **"eos74bo"** model from the Ersilia Model Hub, focusing on Tasks of the internship project, which involves checking model bias.
 
 ## Project Overview
 
