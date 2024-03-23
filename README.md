@@ -24,7 +24,7 @@ To reproduce the validation process, follow these steps:
 git clone <repository_url.git>
 
 ## Project Task for Week 2:
-# Evaluating the biased
+### Evaluating the biased
 - Have used the project from the mentioned models
 - Dowloaded the dataset
 - Cleaned the dataset
@@ -32,18 +32,18 @@ git clone <repository_url.git>
 - Generated the InchyKeys
 - Made the predictions
 - Ploted the scttered plot
-# Made comparisons of the predictions
+### Made comparisons of the predictions
 - This is almost completed but under process
 ## Project Task for Week 3:
 
 Select the paper and get the dataset that used in that paper and make prediction on that.
 
-## The Paper is followed:
+### The Paper is followed:
 
 <https://slas-discovery.org/action/showPdf?pii=S2472-5552%2822%2906765-X> that used the PAMPA dataset:
 **PAMPA, parallel artificial membrane permeability assay**: PAMPA is a laboratory test used in drug development to assess how easily a drug can pass through cell membranes. It helps researchers understand the ability of a drug to be absorbed into the bloodstream, which is important for determining its effectiveness.
 
-## Download the dataset:
+### Download the dataset:
 
 the code to download the dataset is below
 
