@@ -65,7 +65,8 @@ In this notebook, I am loading a list of molecules I obtained from PubChem for s
 - Is about the substance id highly Soluble or active class = '0' or Low Soluble or Inactive class = '0'
 - Outcome is in the probability
 
-
+### Github model Run
+![Image for the app running in terminal](
 ### Task 3 - Week 3
 
 **PAMPA, parallel artificial membrane permeability assay**: PAMPA is a laboratory test used in drug development to assess how easily a drug can pass through cell membranes. It helps researchers understand the ability of a drug to be absorbed into the bloodstream, which is important for determining its effectiveness.
