@@ -67,8 +67,16 @@ In this notebook, I am loading a list of molecules I obtained from PubChem for s
 
 ### Github model Run
 
+#### App running in Terminl
+
 ![App runing in terminal](https://github.com/Iqra350/Ersilia/raw/main/figures/Screenshot%202024-03-28%20104831.png)
+
+#### Download the Dataset for prediction
+
 ![Download the Dataset](https://github.com/Iqra350/Ersilia/raw/main/figures/Screenshot%202024-03-28%20122950.png)
+
+#### Upload the Dataset for predictions
+
 ![Upload the Dataset for predictions](https://github.com/Iqra350/Ersilia/raw/main/figures/Screenshot%202024-03-28%20122935.png)
 
 ### Task 3 - Week 3
