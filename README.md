@@ -62,7 +62,7 @@ In this notebook, I am loading a list of molecules I obtained from PubChem for s
 
 **OutCome:**
 
-- Is about the substance id highly Soluble or active class = '0' or Low Soluble or Inactive class = '0'
+- Is about the substance id highly Soluble or active class = '0' or Low Soluble or Inactive class = '1'
 - Outcome is in the probability
 
 ### Github model Run
