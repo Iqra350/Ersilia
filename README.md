@@ -66,7 +66,11 @@ In this notebook, I am loading a list of molecules I obtained from PubChem for s
 - Outcome is in the probability
 
 ### Github model Run
-![Image for the app running in terminal](
+
+![App runing in terminal](https://github.com/Iqra350/Ersilia/raw/main/figures/Screenshot%202024-03-28%20104831.png)
+![Download the Dataset](https://github.com/Iqra350/Ersilia/raw/main/figures/Screenshot%202024-03-28%20122950.png)
+![Upload the Dataset for predictions](https://github.com/Iqra350/Ersilia/raw/main/figures/Screenshot%202024-03-28%20122935.png)
+
 ### Task 3 - Week 3
 
 **PAMPA, parallel artificial membrane permeability assay**: PAMPA is a laboratory test used in drug development to assess how easily a drug can pass through cell membranes. It helps researchers understand the ability of a drug to be absorbed into the bloodstream, which is important for determining its effectiveness.
