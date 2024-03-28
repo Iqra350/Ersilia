@@ -43,17 +43,34 @@ Kinetic aqueous solubility (μg/mL) was experimentally determined using the same
 
 ### Task 2 - Week 2
 
-### Made comparisons of the predictions
-- This is almost completed but under process
+### Reproducibility of Results
 
 Select the paper and get the dataset that used in that paper and make prediction on that.
 
 ### The Paper is followed:
 
-<https://slas-discovery.org/action/showPdf?pii=S2472-5552%2822%2906765-X> that used the PAMPA dataset:
+<https://slas-discovery.org/action/showPdf?pii=S2472-5552%2822%2906765-X> that used the Solubilty dataset:
+
+### About the Code:
+In this notebook, I am loading a list of molecules I obtained from PubChem for solubilty check of drug, and will replicate the results for [Ersilia Hub Model mentioned in link](https://github.com/ersilia-os/eos74bo?tab=readme-ov-file) and for the [git hub code of external sourse mentioned in link](https://github.com/ncats/ncats-adme/tree/master)processing them to make sure I have:
+
+- Some data visulization
+- Generate the ROC curve for the original github code
+- Generate the ROC curves for the EMH code
+  - Outcome generated after standardized smiles
+- Make the comparison
+
+**OutCome:**
+
+- Is about the substance id highly Soluble or active class = '0' or Low Soluble or Inactive class = '0'
+- Outcome is in the probability
+
+
+### Task 3 - Week 3
+
 **PAMPA, parallel artificial membrane permeability assay**: PAMPA is a laboratory test used in drug development to assess how easily a drug can pass through cell membranes. It helps researchers understand the ability of a drug to be absorbed into the bloodstream, which is important for determining its effectiveness.
 
-### Download the dataset:
+### Download the  External dataset:
 
 the code to download the dataset is below
 
@@ -63,7 +80,5 @@ data = ADME(name = 'PAMPA_NCATS')
 split = data.get_split()
 
 ```
-
-### Task 3 - Week 3
 
 
